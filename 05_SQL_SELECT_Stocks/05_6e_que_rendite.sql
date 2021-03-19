@@ -37,6 +37,9 @@ SELECT
 FROM ccc_list
 ;
 
+-- Teilabschnitt / Beispiel
+SELECT * FROM tmp LIMIT 10;
+
 SELECT
 	c_name AS "Firma",
 	ticker AS "SYM",
